@@ -1,0 +1,150 @@
+body {
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 14px !important;
+    color: #333 !important;
+    font-weight: normal !important;
+    min-width: 10px !important;
+    background: url("../images/home_hr.png") #f2f2f2 !important;
+    overflow-x: hidden !important;
+}
+.btn{
+    border-radius: 0 !important;
+    transition: all .5s !important;
+    color: #f2f2f2 !important;
+    background-color: #ff6600 !important;
+}
+.btn:focus{
+    box-shadow: none !important;
+}
+.btn:hover{
+    background-color: #fff !important;
+    color: #ff6600 !important;
+    border-color: #ff6600 !important;
+}
+/*Navbar*/
+.top-nav .navbar-dark{
+  background: url("../images/home_hr.png") #ff6600;
+  padding: 20px 0px 20px 0px;
+}
+.top-nav .nav-item a{
+  color: #fff !important;
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: all .5s;
+}
+.nav-item .nav-link .modtitle:after{
+  position: absolute;
+    content: "";
+    height: 15px;
+    width: 2px;
+    right: 0;
+    margin-right: -20px;
+    bottom: 0;
+}
+.nav-item .nav-link .modtitle:after{
+  background-color: #fff;
+}
+.nav-item .nav-link .modtitle{
+    position: relative;
+}
+.top-nav .navbar-dark .nav-item a:hover{
+  text-decoration: underline;
+  color: #000 !important;
+}
+/*Support section*/
+
+.support .section-space{
+    margin: 20px 0 50px 0;
+}
+.support .modtitle{
+    font-size: 2em;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    color: #ff6600;
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+.support .modtitle-text{
+    font-size: 1.2rem;
+    line-height: .5;
+    color: rgba(0, 0, 0, .5);
+    font-weight: 100;
+}
+
+.modtext button:focus {
+    outline: none;
+}
+
+.contact-form-area{
+  margin-top: 10px;
+}
+.contact-form-area .form-group input {
+    background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
+    border: .5px solid rgba(0,0,0,.2);
+    box-shadow: none;
+    color: #000;
+    height: 50px;
+    padding: 10px 10px;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+
+.contact-form-area .form-group textarea {
+    background: rgba(255, 255, 255, 0.1) none repeat;
+    border: .1px solid rgba(0,0,0,.2);
+    box-shadow: none;
+    color: #000;
+    border-radius: 0;
+    min-height: 180px;
+    padding: 10px 20px;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+
+.contact-form-area .form-group input:hover,
+.contact-form-area .form-group input:focus,
+.contact-form-area .form-group textarea:hover,
+.contact-form-area .form-group textarea:focus {
+    outline: none;
+}
+
+.contact-form-area .form-group .cont-submit {
+    background: transparent none repeat scroll 0 0;
+    background: #ff6600;
+    border: none;
+    color: #000;
+    display: inline-block;
+    font-size: 14px;
+    height: 40px;
+    width: 100%;
+    outline-offset: 0;
+    padding: 0 15px;
+    margin-top: -15px;
+    text-shadow: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.contact-form-area .form-group .cont-submit:focus{
+    outline: none;
+}
+.has-icon{
+  position: relative;
+}
+.form-control-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: rgba(0,0,0,.2);
+    padding-right: 10px;
+}

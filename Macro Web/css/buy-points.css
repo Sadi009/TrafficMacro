@@ -1,0 +1,133 @@
+body {
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 14px !important;
+    color: #333 !important;
+    font-weight: normal !important;
+    min-width: 10px !important;
+    background: url("../images/home_hr.png") !important;
+    overflow-x: hidden !important;
+}
+.btn{
+	border-radius: 0 !important;
+	transition: all .5s !important;
+	color: #f2f2f2 !important;
+	background-color: #ff6600 !important;
+}
+.btn:focus{
+	box-shadow: none !important;
+}
+.btn:hover{
+	background-color: #fff !important;
+	color: #ff6600 !important;
+	border-color: #ff6600 !important;
+}
+/* Buy Pay points */
+
+.buy-points{
+	margin-top: 50px;
+}
+.buy-points h3{
+	color: #ff6600;
+	font-weight: 400;
+	margin-bottom: 50px;
+}
+.buy-points table{
+	text-align: justify;	
+}
+.buy-points tbody tr th:hover{
+	background-color: rgba(255,102,0, .3);
+}
+.buy-points tbody tr td{
+	font-weight: bolder;
+}
+.buy-points tbody tr td:hover{
+	background-color: rgba(255,102,0, .3);
+}
+table button{
+	background-color: #ff6600;
+}
+table button{
+	text-decoration: none;
+	color: #000;
+}
+table .btn:focus,
+.submit .btn:focus{
+	outline: none;
+	box-shadow: none;
+}
+
+.buy-points p span{
+	font-weight: bold;
+	color: #ff6600;
+	font-size: 20px;
+}
+.mod-text{
+	color: rgba(0,0,0,.5);
+}
+
+.modal{
+	top: 30%;
+}
+
+.custom-control-label::after {
+	background: #ff6600;
+	border-radius: 0;
+}
+.custom-control-label:before{
+	box-shadow: none !important;
+}
+
+.modal-footer {
+    display: block !important;
+}
+
+.modal-footer button{
+	background: none;
+	border-radius: 5px;
+	border:1px solid #ff6600;
+	color: rgba(0,0,0,.7);
+}
+@media (max-width: 360px){
+	.modal-footer button{
+		margin-left: -7%;
+		margin-top: 5px;
+	}
+}
+@media (max-width: 380px) and (min-width: 361px){
+	.modal-footer button{
+		margin-left: -6%;
+		margin-top: 5px;
+	}
+}
+.clearfix::after {
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    font-size: 0;
+}
+/* Buy slots */
+
+.buy-slots h3{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.buy-slots span{
+	font-size: 20px;
+	font-weight: bold;
+	color: #ff6600;
+}
+.buy-slots input{
+	border: 1px ridge #ff6600;
+	width: 50%;
+}
+.buy-slots .submit button{
+	background-color: #ff6600;
+	font-weight: bold;
+}
+.buy-slots .form-control{
+	box-shadow: none !important;
+	outline: none;
+
+}

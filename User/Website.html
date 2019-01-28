@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Website</title>
+
+  <link rel="stylesheet" href="../Theme/css/user.css">
+  <link rel="stylesheet" href="../Theme/font/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../Theme/css/bootstrap/css/bootstrap.min.css">
+    <!-- =================================================
+      Script 
+    ======================================================-->
+    <script src="../Theme/js/jquery-3.3.1.min.js"></script>
+    <script src="../Theme/css/bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body class="points_table_scrollbar" style="overflow-x: hidden;">
+  <section class="profile-nav">
+      <div class="nav-side-menu">
+        <div class="brand">TrafficMacro</div>
+        <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+        <div class="menu-list">
+          <ul id="menu-content" class="menu-content collapse out">
+            <li class="pl-2 pt-2">
+              <p>Hits Remaining:  <span class="big-white">0</span></p>
+            </li>
+            <li  data-toggle="collapse" data-target="#start" class="collapsed active">
+              <a href="#">
+                <i class="fa fa-rocket fa-lg"></i>User <span class="arrow"></span>
+              </a>
+            </li>
+            <ul class="sub-menu collapse" id="start">
+              <li>
+                <a href="#">
+                  Setting
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Logout
+                </a>
+              </li>
+            </ul>
+            <li class="collapsed">
+              <a href="#"><i class="fa fa-user fa-lg"></i> Account </a>
+            </li>
+            <li class="collapsed">
+              <a href="#"><i class="fa fa-window-maximize fa-lg"></i> My Website </a>
+            </li>
+            <li class="collapsed">
+              <a href="#"><i class="fa fa-exchange fa-lg"></i> Earn Points </a>
+            </li>
+            <li class="collapsed">
+              <a href="#"><i class="fa fa-cart-arrow-down fa-lg"></i> Buy Traffic Link </a>
+            </li>
+            <li class="collapsed">
+              <a href="#"><i class="fa fa-users fa-lg"></i> Referrals </a>
+            </li>
+            <li class="collapsed">
+              <a href="#"><i class="fa fa-handshake-o fa-lg"></i> Support & FAQ's </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-------- Website -------->
+    <div class="website">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Add new website</h5>
+                    <p>Website Link/URL</p>
+                    <div class="form-group">
+                        <input class="form-control form-control-lg" type="text" placeholder="Enter website link/URL" id="inputLarge">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h5>Add Macro or JavaScript Macro</h5>
+                    <p>Macro or JavaScript Macro Link/URL</p>
+                    <div class="form-group">
+                        <input class="form-control form-control-lg" type="text" placeholder="Enter Macro link/URL" id="inputLarge">
+                    </div>
+                </div>
+            </div>
+            <div class="web-content">
+                <div class="dropdown">
+                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                        Daily Hits Limit
+                    </button>
+                    <div class="dropdown-menu">
+                        <fieldset class="form-group">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+                                    Exact
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+                                    Random
+                                </label>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="row m-t-20">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label for="duration1">Duration</label>
+                            <select class="form-control" id="duration1">
+                                <option>1s</option>
+                                <option>5s</option>
+                                <option>10s</option>
+                                <option>20s</option>
+                                <option>30s</option>
+                                <option>40s</option>
+                                <option>50s</option>
+                                <option>60s</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label class="col-form-label col-form-label-sm" for="inputSmall">Number of Visits Per Hour</label>
+                            <input class="form-control" type="text" placeholder="Number of Visits Per Hour" id="inputSmall">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label for="re-visits1">Re-Visits</label>
+                            <select class="form-control" id="re-visits1">
+                                <option>1s</option>
+                                <option>5s</option>
+                                <option>10s</option>
+                                <option>20s</option>
+                                <option>30s</option>
+                                <option>40s</option>
+                                <option>50s</option>
+                                <option>60s</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label for="unique-visits1">Unique-Visits</label>
+                            <select class="form-control" id="unique-visits1">
+                                <option>Every Hour</option>
+                                <option>Every 2 Hours</option>
+                                <option>Every 5 Hours</option>
+                                <option>Every 10 Hours</option>
+                                <option>Every 24 Hours</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12">
+                        <div class="row form-group traffic-link">
+                            <div class="col-md-8 col-sm-12">
+                                <div class="float-left">
+                                    <label class="control-label text-left">Add to Traffic Link</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="float-right">
+                                    <button type="button" class="btn">No</button>
+                                </div>
+                                <div class="float-right mr-1">
+                                    <button type="button" class="btn">Yes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="submit">
+                    <button type="button" class="btn" data-toggle="buttons">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>   
+</body>
+</html>

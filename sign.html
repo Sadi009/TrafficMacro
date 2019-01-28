@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TrafficMacro</title>
+  <!--================================================= 
+  CSS Style 
+  =====================================================-->
+  <link rel="stylesheet" href="Theme/css/style.css">
+  <link rel="stylesheet" href="Theme/font/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Theme/css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Theme/font/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- =================================================
+  Script 
+  ======================================================-->
+    <script src="Theme/js/jquery-3.3.1.min.js"></script>
+    <script src="Theme/css/bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body class="points_table_scrollbar" style="overflow-x: hidden;">
+    <section class="top-nav">
+      <nav class="navbar navbar-expand-md navbar-color navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">TrafficMacro</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse">
+              <span><i class="fa fa-th"></i></span>
+          </button>
+          <div class="collapse navbar-collapse text-center clear" id="collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="support.html" class="nav-link"><span class="modtitle">Support</span></a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link">
+                  <span class="modtitle">About</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="sign.html" class="nav-link">
+                  <span class="modtitle">Login</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Sign Up / Sign In -->
+    <div class="login-wrap">
+      <div class="login-html">
+        <input id="tab-1" type="radio" name="tab" class="sign-in" checked>
+        <label for="tab-1" class="tab">Sign In</label>
+        <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+        <div class="login-form">
+
+          <!-- Log In -->
+          <div class="sign-in-htm">
+            <form action="" method="post">
+              <div class="group">
+                <label for="user" class="label">Username</label>
+                <input id="user" type="text" class="input" placeholder="Enter Username" required>
+              </div>
+              <div class="group">
+                <label for="pass" class="label">Password</label>
+                <input id="pass" type="password" class="input" placeholder="Enter Password" required>
+              </div>
+              <div class="group">
+                <label for="check" class="checkbox-inline" style="color: #6a6f8c;"><input id="check" type="checkbox" checked> Keep me Signed in</label>
+              </div>
+              <div class="group">
+                <button type="submit" class="button">Sign In</button>
+              </div>
+            </form>
+            
+            <div class="foot-lnk">
+              <a href="#" data-toggle="modal" data-target="#myModal">Forgot Password?</a>
+            </div>
+          </div>
+
+          <!-- Sign Up -->
+          <div class="sign-up-htm">
+            <form action="" method="post">
+              <div class="group">
+                <label for="pass" class="label">Email Address</label>
+                <input id="pass" type="text" class="input" placeholder="Enter Email" required>
+              </div>
+              <div class="group">
+                <label for="user" class="label">Username</label>
+                <input id="user" type="text" class="input" placeholder="Enter Username" required>
+              </div>
+              <div class="group">
+                <label for="pass" class="label">Password</label>
+                <input id="pass" type="password" class="input" placeholder="Enter Password" required>
+              </div>
+              <div class="group">
+                <label for="pass" class="label">Repeat Password</label>
+                <input id="pass" type="password" class="input" placeholder="Enter Password" required>
+              </div>
+              <div class="group">
+                <label for="check" class="checkbox-inline" style="color: #6a6f8c;"><input id="check" type="checkbox" checked> I agree to the <a href="tos.html" target="_blank">Terms of Services</a></label>
+              </div>
+              <div class="group">
+                <button type="submit" class="button">Sign Up</button>
+              </div>
+            </form>
+            <div class="foot-lnk">
+              <label for="tab-1"><a>Already Member?</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><br>
+
+    <!-- Forget Password Model -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <form action="" method="post">
+              <div class="form-group" align="center">
+                <input id="email" type="email" class="form-control" placeholder="Your Registred Email Address" required><br>
+                <button type="submit" class="btn btn-info">Reset</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <ul class='about'>
+              <li>
+                <div class="m-t-5">
+                  <i class="fa fa-th"></i> 
+                  <a href="about.html">About Us</a>
+                </div>
+              </li>
+              <li>
+                <div class="m-t-5">
+                  <i class="fa fa-th"></i>
+                  <a href="tos.html">Terms of service</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="container m-t-20">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="col-sm-12 col-md-12 col-xs-12">
+              <div class=" social text-center">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-google"></i></a>
+                  <a href="#"><i class="fa fa-github"></i></a>
+                  <a href="#"><i class="fa fa-skype"></i></a> 
+              </div>
+            </div> 
+            <div class="col-sm-12">
+              <div class='copyright clearfix'>&copy; 2018 TrafficMacro Ltd</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>

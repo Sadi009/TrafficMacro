@@ -1,0 +1,157 @@
+body {
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 14px !important;
+    color: #333 !important;
+    font-weight: normal !important;
+    min-width: 10px !important;
+    background: url("../image/home_hr.png") !important;
+    overflow-x: hidden !important;
+}
+.btn{
+	border-radius: 0 !important;
+	transition: all .5s !important;
+	color: #f2f2f2 !important;
+	background-color: #ff6600 !important;
+}
+.btn:focus{
+	box-shadow: none !important;
+}
+.btn:hover{
+	background-color: #fff !important;
+	color: #ff6600 !important;
+	border-color: #ff6600 !important;
+}
+.m-t-20{
+	margin-top: 50px;
+}
+
+/* Header nav*/
+.header{
+	background-color: #000;
+	
+}
+.header p {
+	color: #ff6600;
+	font-size: 15px;
+	font-weight: bold;
+}
+.header i{
+	border: 2px solid #ff6600;
+	padding: 0 10px;
+	border-radius: 5px;
+	color: #ff6600;
+}
+.header button{
+	background-color: rgba(131, 199, 241, 0.0);
+}
+
+/* Main nav*/
+.main-nav .navbar-dark{
+	background-color: #ff6600; 
+}
+
+.main-nav .nav-item{
+	font-size: 4vw;
+	padding: 0 2vw;
+}
+.main-nav .nav-item a{
+	font-size: 17px;
+	margin-top: -1vw;
+	font-weight: bold;
+	border: 3px solid #000;
+	color: #000;
+}
+
+
+
+
+/* First-content */
+.first-content {
+	margin-top: 50px;
+	margin-bottom: 200px;
+}
+.first-content p{
+	background-color: #fff;
+}
+
+/* Second Content */
+.second-content p{
+	font-weight: bold;
+	font-size: 25px;
+	color: #ff6600;
+	text-shadow: 2px 2px 8px #000;
+}
+.second-content label{
+	background-color: #ff6600;
+	margin-bottom: 20px; 
+	padding: 5px 10px;
+	border: 2px solid #000;
+	border-radius: 5px;
+	font-weight: bolder;
+	
+	
+}
+.second-content label:hover{
+	text-shadow: 1px 1px 5px #fff;
+}
+
+.second-content .form-control:focus{
+	border: thick ridge #ff6600;
+	border-radius: 10px;
+}
+
+/* WebSite */
+.website{
+	padding-top: 15vh;
+}
+.website h5{
+	font-size: 25px;
+}
+
+.website .form-control:focus{
+	box-shadow: none;
+}
+.website .dropdown{
+	text-align: center;
+}
+.website .dropdown button{
+	font-weight: bold;
+	margin-top: 10px;
+}
+.website .dropdown .dropdown-menu{
+	font-size: 1em;
+	border: .5px ridge #ff6600;
+	background:url(../image/home_hr.png) #fff1e8;
+	border-radius: 0;
+}
+.form-check-input{
+	position: relative !important;
+	cursor: pointer;
+}
+.web-content label{
+	font-size: 1.5em;
+	font-weight: 500;
+	color: rgba(0,0,0,.7);
+	margin-left: 5px;
+
+}
+.web-content .form-control{
+	border:.5px solid #ff6600;
+	border-radius: 0;
+}
+
+.web-content .form-control:focus{
+	box-shadow: none;
+}
+.web-content .form-group{
+	padding: 10px 10px;
+}
+.web-content .traffic-link{
+	background-color: #fff1e8;
+	margin: 10px 10px;
+}
+.submit{
+	width: 20%;
+	margin: 10px 10px 20px 10px;
+}
+

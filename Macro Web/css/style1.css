@@ -1,0 +1,234 @@
+body {
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 14px !important;
+    color: #333 !important;
+    font-weight: normal !important;
+    min-width: 10px !important;
+    background: url("../images/home_hr.png") !important;
+    overflow-x: hidden !important;
+}
+.btn{
+	border-radius: 0 !important;
+	transition: all .5s !important;
+	color: #f2f2f2 !important;
+	background-color: #ff6600 !important;
+}
+.btn:focus{
+	box-shadow: none !important;
+}
+.btn:hover{
+	background-color: #fff !important;
+	color: #ff6600 !important;
+	border-color: #ff6600 !important;
+}
+
+input{
+	border:.5px solid #ff6600;
+	padding: 10px;
+}
+/* Earn Pay points */
+
+.pay-points{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.pay-points h3{
+	margin-bottom: 50px;
+}
+.download{
+	padding: 20px 50px;
+	width: 80%;
+	margin: auto;
+	border: thick ridge #ff6600;;
+	text-align: center;
+	box-sizing: border-box;
+}
+.download h6{
+	text-align: justify;
+	color: #ff6600;
+}
+.download p{
+	font-size: 20px;
+	text-align: justify;
+}
+.download span{
+	font-size: 4vw;
+	font-weight: bold;
+	color: #ff6600;
+}
+
+.download button{
+	width: 50%
+	word-wrap: break-word;
+	background-color: #ff6600;
+	font-weight: bold;
+}
+.download button a{
+	text-decoration: none;
+	color: #000;
+}
+
+.slot-button a{
+	font-weight: bold;
+	padding: 10px 15px;
+	color: #000;
+	background-color: #ff6600;
+	text-decoration: none!important;
+	margin-bottom: 25px;
+	border: 1px transparent #ff6600;
+	border-radius: 5px;
+}
+.slot-button p{
+	margin-top: 10px;
+}
+
+.slots{
+	text-align: center;
+	padding: 20px;
+	border: thick ridge #ff6600;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+.slots h6{
+	font-size: 20px;
+}
+.slots p{
+	font-size: 12px;
+}
+.slots span{
+	font-size: 25px;
+	color: #ff6600;
+}
+.slots button a{
+	text-decoration: none;
+	color: #000;
+}
+.slots button{
+	background-color: #ff6600;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.browser{
+	text-align: center;
+	padding: 20px;
+	border: thick ridge #ff6600;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.browser h6{
+	font-size: 20px;
+}
+
+/* Payment */
+
+@media (max-width: 767px){
+	.payment .row-fluid{
+		width: 90% !important;
+	}
+}
+.payment .row-fluid{
+	width: 60%;
+	margin: auto;
+	margin-top: 50px;
+	padding: 50px;
+}
+.payment label{
+	margin-top: 20px;
+}
+.payment input{
+	border-radius: 0;
+	width: 100%;
+	padding: 10px;
+}
+.payment .checkbox input{
+	width: 20px;
+}
+.payment select{
+	border: .5px solid #ff6600;
+	border-radius: 0;
+}
+.payment button{
+	background-color: #ff6600;
+	font-weight: bold;
+}
+
+/* Referral */
+
+.referral label{
+	font-size: 25px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.referral input{
+	border: 2px ridge #ff6600;
+	margin-bottom: 30px;
+}
+.referral .referral-status{
+	padding: 50px;
+	background-color: #fff1e8; 
+	margin: auto;
+}
+.referral .referral-commission{
+	padding: 50px;
+	background-color: #fff1e8; 
+	margin: auto;
+}
+
+.request-payout{
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	padding: 40px;
+	background-color: #fff1e8;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.request-payout p{
+	font-size: 40px;
+}
+.request-payout span{
+	color: #ff6600;
+	font-size: 45px;
+}
+.request-payout button{
+	background-color: #ff6600;
+	font-weight: bold;
+}
+
+/* Final Payout */
+.modtitle{
+    font-size: 2em;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    color: #ff6600;
+    text-align: left;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.final-payout{
+	margin: auto;
+	margin-top: 100px;
+}
+.final-payout .payout-form{
+	padding: 30px;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	background-color: #fff1e8;
+}
+.final-payout input{
+	border: .5px solid #ff6600;
+	margin-bottom: 20px;
+	border-radius: 0;
+}
+.final-payout button{
+	background-color: #ff6600;
+	font-weight: bold;
+}
